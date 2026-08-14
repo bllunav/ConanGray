@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conan Gray</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&display=swap');
+      body {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      html {
+         scroll-behavior: smooth;
+      }
+      header {
+         display: flex;
+         position: fixed;
+         background-color: #F5EEDE;
+         width: 90%;
+         height: 90px;
+         align-items: center;
+         padding-left: 60px;
+         border-radius: 20px;
+         margin-left: 2.5%;
+         margin-top: 25px;
+         z-index: 100;
+      }
+      .menu {
+         display: flex;
+         justify-content: space-between;
+      }
+      .links {
+         display: flex;
+         align-items: center;
+         gap: 70px;
+
+      }
+      .links a {
+         text-decoration: none;
+         display: flex;
+         width: 90px;
+         height: 47px;
+         border-radius: 20px;
+         align-items: center;
+         justify-content: center;
+         font-size: 130%;
+         font-weight: bold;
+         color: #304860;
+         transition: 0.25s ease;
+         font-family: 'fuzzy bubbles';
+      }
+      #bio {
+         width: 130px;
+      }
+      .links a:hover {
+         color: #ffffff;
+         background-color: #304860;
+      }
+      .logo {
+         display: flex;
+         width: max-content;
+         height: max-content;
+         margin-left: 90%;
+      }
+      .logo img {
+         width: 200px;
+         height: 200px;
+      }
+      .bio {
+         display: flex;
+         height: max-content;
+      }
+      .bio-img {
+         display: flex;
+         width: 50%;
+         height: 680px;
+         background-color: #C9D9E6;
+         justify-content: center;
+         align-items: center;
+      }
+      .bio img {
+         width: 60%;
+         border-radius: 20px;
+         margin-top: 10%;
+      }
+      .biography {
+         display: flex;
+         background-color: #B2CDE0;
+         height: 340px;
+         width: 40%;
+         align-items: center;
+         justify-content: center;
+         margin-left: 5.5%;
+         margin-top: 15%;
+         border-radius: 20px;
+      }
+      .biography p {
+         font-size: 20px;
+         padding: 10%;
+         line-height: 33px;
+         color: #304860;
+         font-weight: 700;
+         font-family: 'Indie Flower';
+      }
+      em {
+         color: #840406;
+         font-style: normal;
+      }
+      .music {
+         display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+         gap: 50px;
+         margin-top: 80px;
+         height: max-content;
+      }
+      .music img {
+         width: 200px;
+         transition: 0.6s ease;
+      }
+      .music img:hover {
+         transform: scale(1.15);
+      }
+      .music div {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+      .music button {
+         font-size: 19px;
+         letter-spacing: 1px;
+         align-items: center;
+         font-family: 'fuzzy bubbles';
+         font-weight: bold;
+         border: none;
+         outline: none;
+         padding: 10px;
+         margin-top: 5%;
+         background-color: transparent;
+         transition: 0.5s ease;
+      }
+      #sunset-season:hover {
+         color: #FF8439;
+         /* transform: scale(1.1); */
+      }
+      #kidkrow:hover {
+         color: #AFAB93;
+         /* transform: scale(1.1); */
+      }
+      #superache:hover {
+         color: #802B28;
+         /* transform: scale(1.1); */
+      }
+      #found-heaven:hover {
+         color: #FFDD15;
+         /* transform: scale(1.1); */
+      }
+      #wishbone:hover {
+         color: #306C7F;
+         /* transform: scale(1.1); */
+      }
+      .socials {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 120px;
+         background-color: #F5EEDE;
+         margin-top: 5%;
+         gap: 3.5%;
+      }
+      .socials img {
+         width: 40px;
+         height: 40px;
+      }
+      .socials a {
+         transition: 0.25s ease;
+      }
+      .socials a:hover {
+         transform: scale(1.2);
+      }
+      /* #line {
+         font-size: 50px;
+         margin-top: -4%;
+      }
+      #linetwo {
+         font-size: 50px;
+         margin-top: 10%;
+      } */
+      .fill {
+         width: 100%;
+         height: 40px;
+      }
+    </style>
+</head>
+<body id="body">
+   <header>
+      <nav class="menu">
+         <div class="links">
+         <a href="#biographysec" id="bio">biography</a>
+         <a href="#musicsec" id="music">music</a>
+         <a href="#socialsec" id="socials">socials</a>
+         </div>
+         <div class="logo">
+         <a href="#body"><img src="img/logo.png" alt="couldn't load logo"></a>
+         </div>
+      </nav>
+   </header>
+   <section id="biographysec">
+      <div class="bio">
+         <div class="bio-img">
+            <img src="img/bio.jpg" alt="">
+         </div>
+         <div class="biography">
+            <p>
+            <em>Conan Lee Gray</em> (born December 5, 1998) is an American singer, songwriter and former YouTuber. He was born in Lemon Grove, California, and raised in Georgetown, Texas, where he began uploading vlogs, covers, and original songs to YouTube as a teenager. In 2018, Gray signed a record deal with Republic Records, which released his debut EP, Sunset Season (2018).
+            </p>
+         </div>
+      </div>
+   </section>
+   <section id="musicsec">
+      <div class="music">
+         <div class="orange">
+            <a href="https://open.spotify.com/album/16pubXUlqRziVWRsT6lLNz?si=1fa370d9f97c44cf"><img src="img/orange.png" alt="sunset season"></a>
+            <button id="sunset-season">sunset season ></button>
+         </div>
+         <div class="beige">
+            <a href="https://open.spotify.com/album/2CMlkzFI2oDAy5MbyV7OV5?si=tnJiOEvZTzWymCL2c0PoYw"><img src="img/beige.png" alt="kidkrow"></a>
+            <button id="kidkrow">kidkrow ></button>
+         </div>
+         <div class="red">
+            <a href="https://open.spotify.com/album/5hIOd0FvjlgG4uLjXHkFWI?si=6466cbede73247bc"><img src="img/red.png" alt="superache"></a>
+            <button id="superache">superache ></button>
+         </div>
+         <div class="yellow">
+            <a href="https://open.spotify.com/album/39gMxRpFKgIVvw3krIIam5?si=bc27db9c3a6d42c2"><img src="img/yellow.png" alt="found heaven"></a>
+            <button id="found-heaven">found heaven ></button>
+         </div>
+         <div class="blue">
+            <a href="https://open.spotify.com/album/1Q0kTJx8DrQd8RJW9L7eIN?si=e1cd84233e7044e8"><img src="img/blue.png" alt="wishbone"></a>
+            <button id="wishbone">wishbone ></button>
+         </div>
+      </div>
+   </section>
+   <section id="socialsec">
+      <div class="socials">
+         <!-- <p id="line">-------------------------------------------------</p> -->
+         <a href="https://www.facebook.com/conangrayofficial/"><img src="img/icon/facebook.png" alt="facebook"></a>
+         <a href="https://twitter.com/conangray"><img src="img/icon/x.png" alt="x"></a>
+         <a href="https://www.instagram.com/conangray/"><img src="img/icon/instagram.png" alt="instagram"></a>
+         <a href="https://www.youtube.com/channel/UCUKxvWVo8lmRXkbTOkqUhGg"><img src="img/icon/youtube.png" alt="youtube"></a>
+         <a href="https://music.apple.com/us/artist/conan-gray/1168567308"><img src="img/icon/apple music.png" alt="apple music"></a>
+         <a href="https://open.spotify.com/artist/4Uc8Dsxct0oMqx0P6i60ea?autoplay=true&v=A"><img src="img/icon/spotify.png" alt="spotify"></a>
+         <!-- <p id="linetwo">-------------------------------------------------</p> -->
+      </div>
+   </section>
+   <div class="fill"></div>
+</body>
+</html>
